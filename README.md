@@ -1,7 +1,7 @@
-Student Grades Management System
+Student Grades Management System:
 This is a web application designed to manage student grades efficiently. It provides a user-friendly interface for teachers or administrators to log in, add new student grades, view a list of existing grades, edit them, and delete them.
 
-Features
+Features""
 User Authentication: Secure login functionality (admin/password) to access the system.
 
 Add New Grades: A dedicated form to input student name, course, and score.
@@ -14,8 +14,8 @@ Delete Grades: Ability to remove individual grade entries from the system.
 
 Responsive Design: Styled with CSS for a clean and adaptive user experience.
 
-Technologies Used
-Frontend
+Technologies Used:
+Frontend:
 React: A JavaScript library for building user interfaces.
 
 TypeScript: A superset of JavaScript that adds static types.
@@ -24,7 +24,7 @@ Axios: A promise-based HTTP client for making API requests.
 
 CSS: For styling and responsive layout.
 
-Backend
+Backend:
 C# / .NET: For building the RESTful API that handles grade data.
 
 Entity Framework Core: An ORM for database interaction.
@@ -32,47 +32,6 @@ Entity Framework Core: An ORM for database interaction.
 SQL Server LocalDB: A lightweight version of SQL Server for local development.
 
 ASP.NET Core CORS: Middleware to enable Cross-Origin Resource Sharing.
-
-Setup and Installation
-To set up and run this project locally, follow these steps:
-
-1. Clone the Repository
-git clone https://github.com/Mohan061997/Grade-management.git
-cd Grade-management
-
-2. Backend Setup (C# .NET)
-Navigate into your backend project directory.
-
-Install .NET SDK: If you don't have it, download and install the appropriate .NET SDK from https://dotnet.microsoft.com/download.
-
-Install Entity Framework Core Tools:
-
-dotnet tool install --global dotnet-ef
-
-Install NuGet Packages: Ensure your project has the necessary packages. In your backend project's root directory, run:
-
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-dotnet add package Microsoft.EntityFrameworkCore.Design
-dotnet add package Microsoft.AspNetCore.Cors
-
-Apply Database Migrations:
-
-Add a migration (if you haven't already):
-
-dotnet ef migrations add InitialCreate
-
-Update your database to apply the schema:
-
-dotnet ef database update
-
-3. Frontend Setup (React)
-Navigate into the frontend directory:
-
-cd frontend
-
-Install the required npm packages:
-
-npm install
 
 
 Running the Application
